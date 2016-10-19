@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1654B4681DB80FC200F023E0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1654B4671DB80FC200F023E0 /* main.cpp */; };
+		1654B4701DB80FEA00F023E0 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1654B46F1DB80FEA00F023E0 /* GLUT.framework */; };
+		1654B4721DB80FF000F023E0 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1654B4711DB80FF000F023E0 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		1654B4641DB80FC200F023E0 /* chaser-game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "chaser-game"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1654B4671DB80FC200F023E0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1654B46F1DB80FEA00F023E0 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		1654B4711DB80FF000F023E0 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +36,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1654B4721DB80FF000F023E0 /* OpenGL.framework in Frameworks */,
+				1654B4701DB80FEA00F023E0 /* GLUT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +49,7 @@
 			children = (
 				1654B4661DB80FC200F023E0 /* chaser-game */,
 				1654B4651DB80FC200F023E0 /* Products */,
+				1654B46E1DB80FEA00F023E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +67,15 @@
 				1654B4671DB80FC200F023E0 /* main.cpp */,
 			);
 			path = "chaser-game";
+			sourceTree = "<group>";
+		};
+		1654B46E1DB80FEA00F023E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1654B4711DB80FF000F023E0 /* OpenGL.framework */,
+				1654B46F1DB80FEA00F023E0 /* GLUT.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

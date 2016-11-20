@@ -23,8 +23,8 @@ After 30 seconds of the game start, the player will be granted the ability of pe
 
 ## Game Modes
 The game has two modes:
-- Time based: the game lasts for 5 minutes (5%).
-- One shot kill: the game lasts till the player gets caught by a chaser (5%).
+- Time based: the game lasts for 5 minutes.
+- One shot kill: the game lasts till the player gets caught by a chaser.
 
 
 ## Controls
